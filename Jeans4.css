@@ -1,0 +1,98 @@
+body {
+  /* background-image:url(https://img.freepik.com/free-photo/top-view-butterflies-with-copy-space_23-2151010826.jpg?t=st=1727016660~exp=1727020260~hmac=8ab8620f5343cf40baa70c623e94f79e1bb845b284d1be06168253c463d411f7&w=1060);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: rgb(217, 206, 188);
+  margin: 0%;
+}
+
+nav {
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+nav a {
+  float: left;
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.search-icon {
+  margin-right: 5px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  padding: 250px;
+  padding-right: 1000px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.product {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(16, 16, 16);
+}
+
+.product img {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.product a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+h2 {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: black;
+}
+
+.Extra {
+  color: rgb(239, 227, 227);
+  display: flex;
+  align-content: center;
+}
+
+.rating {
+  display: flex;
+  margin-left: 20px;
+}
+
+.star {
+  color: gold; 
+  font-size: 20px; 
+}

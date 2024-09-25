@@ -1,0 +1,145 @@
+body {
+  margin: 0%;
+}
+
+.container1 {
+  background-image:url(https://img.freepik.com/free-photo/top-view-butterflies-with-copy-space_23-2151010827.jpg?t=st=1727000336~exp=1727003936~hmac=7dd39fff375659e55c6878506cce448bb33e5fd0da837c5d002af4e58b5ef6f2&w=1060);
+  background-size: 1520px 800px;
+  background-repeat: no-repeat;
+  height: 850px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 0%;
+}
+
+.main-page {
+  padding-bottom: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.part2 {
+  background-image:url(https://img.freepik.com/free-photo/top-view-butterflies-with-copy-space_23-2151010828.jpg?t=st=1727000300~exp=1727003900~hmac=e4804699b3e5e4fcadc2c327cdf3d638c957515cb7ede26b6e774bbe275205a0&w=1380);
+  background-size: 1520px 1100px;
+  height: 850px;
+  background-repeat: no-repeat;
+  padding: 100px 100px 200px 100px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 0%;
+}
+
+nav {
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+nav a {
+  float: left;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.search-icon {
+  margin-right: 5px;
+}
+
+h1 {
+  margin-top: 230px;
+  margin-bottom: 10px;
+  font-size: 100px;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  padding-right: 80px;
+}
+
+h2 {
+  color: rgb(10, 0, 0);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+h3 {
+  color: rgb(10, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  line-height: 1.6;
+  color: black;
+}
+
+.Category {
+  border: 1px solid rgb(92, 90, 87);
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 250px;
+  background-color: rgb(217, 206, 188);
+}
+
+.Category img {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  display: block;
+  margin: 0 auto;
+}
+
+.Category a:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-left: 350px;
+  margin-top: 30px;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  color: rgb(5, 5, 4);
+}
+
+.Extra {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-content: center;
+}
+
+footer {
+  background-color: black;
+}
+
+ul a {
+  color: white;
+}
